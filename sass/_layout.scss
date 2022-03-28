@@ -1,0 +1,66 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/wall4.png);
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+
+.meImg {
+    max-width: 400px;
+    border-radius: 15px;
+    border: 2px solid #343a40;
+}
+
+.welcome, 
+.aboutMe,
+.knowledge,
+.earlier,
+.contact {
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    align-items: center;
+    border: 1px solid #343a40;
+    padding: 20px;
+}
+
+.knowledge > *{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.fab {
+    font-size: 100px;
+    color: #343a40;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.skill_container {
+    text-align: center;
+}
+
+footer .fab {
+    font-size: 30px;
+    color: #f2f2f2;
+}
+
+footer {
+    background-color: #343a40;
+    text-align: center;
+    height: 50px;
+}
