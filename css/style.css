@@ -139,7 +139,7 @@ footer {
 }
 
 .navbar .navbar-brand {
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 25px;
   font-family: "Playfair Display", Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -156,5 +156,11 @@ footer {
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
           flex-grow: 0;
+}
+
+@media (min-width: 480px) {
+  .navbar .navbar-brand {
+    font-size: 30px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
