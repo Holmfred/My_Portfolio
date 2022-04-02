@@ -37,6 +37,10 @@ body {
           flex: 1 0 auto;
 }
 
+.container {
+  margin-top: 100px;
+}
+
 .welcome {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,6 +140,11 @@ footer {
     -ms-grid-columns: (auto)[3];
         grid-template-columns: repeat(3, auto);
   }
+}
+
+.navbar {
+  position: fixed !important;
+  width: 100%;
 }
 
 .navbar .navbar-brand {
