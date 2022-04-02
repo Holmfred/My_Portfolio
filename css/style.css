@@ -31,6 +31,12 @@ body {
   margin: 0px;
 }
 
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
 .welcome {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,11 +48,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 150px;
+  gap: 10px;
 }
 
 .meImg {
-  max-width: 400px;
+  max-width: 200px;
   border-radius: 15px;
   border: 2px solid #343a40;
 }
@@ -67,11 +73,19 @@ body {
   padding: 20px;
 }
 
+.welcome p,
+.aboutMe p,
+.knowledge p,
+.earlier p,
+.contact p {
+  margin-left: 20px;
+}
+
 .knowledge > * {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[3];
-      grid-template-columns: repeat(3, auto);
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
 }
 
 .fab {
@@ -88,12 +102,36 @@ body {
 footer .fab {
   font-size: 30px;
   color: #f2f2f2;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 footer {
   background-color: #343a40;
   text-align: center;
-  height: 50px;
+}
+
+@media (min-width: 768px) {
+  .welcome {
+    gap: 30px;
+  }
+  .meImg {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .welcome {
+    gap: 150px;
+  }
+  .meImg {
+    max-width: 400px;
+  }
+  .knowledge > * {
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+  }
 }
 
 .navbar .navbar-brand {
