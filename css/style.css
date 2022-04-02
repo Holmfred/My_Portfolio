@@ -85,6 +85,12 @@ body {
   margin-left: 20px;
 }
 
+.aboutMe p {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 12px;
+}
+
 .knowledge > * {
   display: -ms-grid;
   display: grid;
