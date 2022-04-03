@@ -76,6 +76,18 @@ body {
     text-align: center;
 }
 
+.earlier-content {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.card {
+    position:static !important;
+}
+
 footer .fab {
     font-size: 30px;
     color: #f2f2f2;
@@ -113,3 +125,9 @@ footer {
         grid-template-columns: repeat(3, auto);
     }
  }
+
+@media (min-width:1200px) {
+    .earlier-content {
+        grid-template-columns: repeat(2, auto);
+    }
+}
