@@ -109,6 +109,10 @@ footer {
     .meImg {
         max-width: 300px;
     }
+
+    .card {
+        width: 25rem !important
+    }
 }
 
 @media (min-width:992px) {
@@ -123,6 +127,10 @@ footer {
 
      .knowledge > *{
         grid-template-columns: repeat(3, auto);
+    }
+
+    .card {
+        width: 30rem !important
     }
  }
 
