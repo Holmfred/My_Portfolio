@@ -88,6 +88,12 @@ body {
     position:static !important;
 }
 
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 footer .fab {
     font-size: 30px;
     color: #f2f2f2;
