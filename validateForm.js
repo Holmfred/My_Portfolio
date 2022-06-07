@@ -1,4 +1,4 @@
-export function validateForm() {
+function validateForm() {
     const form = document.querySelector("form");
     const fullName = document.querySelector("#name");
     const email = document.querySelector("#email");

@@ -168,7 +168,7 @@ form div {
 
 input, textarea {
   border-radius: 8px;
-  width: 500px;
+  width: 300px;
 }
 
 input {
@@ -199,6 +199,10 @@ footer {
 @media (min-width: 768px) {
   .welcome {
     gap: 30px;
+  }
+  input, textarea {
+    border-radius: 8px;
+    width: 500px;
   }
   .meImg {
     max-width: 300px;
