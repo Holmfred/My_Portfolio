@@ -149,22 +149,25 @@
         <section class="contact" id="contact">
             <h2>Contact Me</h2>
             <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-                <p>
-                    <label> Name: <input type="text" name="name" /></label>
-                </p>
-                <p>
-                    <label> Email: <input type="text" name="email" /></label>
-                </p>
-                <p>
-                    <label> Subject: <input type="text" name="subject" /></label>
-                </p>
-                <p>
-                    <label> Message: <textarea name="message"></textarea></label>
-                </p>
+                <div>
+                    <label for="name"> Name: </label>
+                    <input name="name" type="text" id="name" placeholder="Full name" />
+                </div>
+                <div>
+                    <label for="email"> Email: </label>
+                    <input name="email" type="email" id="email" placeholder="Email" />
+                </div>
+                <div>
+                    <label for="subject">Subject: </label>
+                    <input name="subject" type="text" id="subject" placeholder="Subject" />
+                </div>
+                <div>
+                    <label for="message"> Message: </label>
+                    <textarea name="message" id="message" placeholder="Your message" cols="30" rows="10"></textarea>
+                </div>
                 <div data-netlify-recaptcha="true"></div>
-                <p>
-                    <button type="submit">Send</button>
-                </p>
+                <p>* Must be checked</p>
+                <button type="submit" class="btn btn-primary">Send</button>
             </form>
         </section>
       </section>

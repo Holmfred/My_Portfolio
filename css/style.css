@@ -153,6 +153,30 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form label {
+  display: none;
+}
+
+form div {
+  margin-top: 20px;
+}
+
+input, textarea {
+  border-radius: 8px;
+  width: 500px;
+}
+
+input {
+  height: 40px;
+}
+
+form button {
+  width: 200px;
 }
 
 .hidden {

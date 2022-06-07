@@ -99,7 +99,30 @@ body {
 form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+form label {
+    display: none;
+}
+
+form div {
+    margin-top: 20px;
+}
+
+input, textarea {
+    border-radius: 8px;
+    width: 500px;
+}
+
+input {
+    height: 40px;
+}
+
+form button {
+    width: 200px;
+}
+
 
 .hidden {
     display: none;
