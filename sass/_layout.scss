@@ -96,6 +96,15 @@ body {
     justify-content: space-evenly;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
 footer .fab {
     font-size: 30px;
     color: #f2f2f2;
