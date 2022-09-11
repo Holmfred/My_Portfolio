@@ -38,6 +38,7 @@ body {
 .aboutMe,
 .knowledge,
 .earlier,
+.development,
 .contact {
     background-color: #f2f2f2;
     margin-top: 20px;
@@ -52,7 +53,8 @@ body {
 .aboutMe p,
 .knowledge p,
 .earlier p,
-.contact p {
+.contact p,
+.development p {
     margin-left: 20px;
 }
 
@@ -78,7 +80,8 @@ body {
     text-align: center;
 }
 
-.earlier-content {
+.earlier-content,
+.development-content {
     display: grid;
     grid-template-columns: repeat(1, auto);
     justify-content: center;
@@ -180,7 +183,8 @@ footer {
  }
 
 @media (min-width:1200px) {
-    .earlier-content {
+    .earlier-content,
+    .development-content {
         grid-template-columns: repeat(2, auto);
     }
 }
