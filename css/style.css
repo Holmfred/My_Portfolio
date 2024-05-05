@@ -190,7 +190,7 @@ footer {
 }
 @media (min-width: 1200px) {
   .earlier-content,
-.development-content {
+  .development-content {
     grid-template-columns: repeat(2, auto);
   }
 }
