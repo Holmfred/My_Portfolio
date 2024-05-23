@@ -52,6 +52,7 @@ body {
 .welcome,
 .aboutMe,
 .knowledge,
+.learning,
 .earlier,
 .development,
 .contact {
@@ -67,6 +68,7 @@ body {
 .welcome p,
 .aboutMe p,
 .knowledge p,
+.learning p,
 .earlier p,
 .contact p,
 .development p {
@@ -79,7 +81,8 @@ body {
   margin-top: 12px;
 }
 
-.knowledge > * {
+.knowledge > *,
+.learning > * {
   display: grid;
   grid-template-columns: repeat(2, auto);
 }
@@ -91,7 +94,8 @@ body {
   margin-bottom: 30px;
 }
 
-.skill_container {
+.skill_container,
+.learning_container {
   text-align: center;
 }
 
